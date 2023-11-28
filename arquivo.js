@@ -5,7 +5,7 @@ function calcularCusto() {
   const quantidadeProdutos = document.getElementById('quantidade').value;
   const margemLucro = document.getElementById('margem').value;
 
-  // Validação dos campos
+  
   if (diasTrabalho === "" || horasPorDia === "" || custoMateriais === "" || quantidadeProdutos === "" || margemLucro === "") {
     alert("Por favor, preencha todos os campos.");
     return;
