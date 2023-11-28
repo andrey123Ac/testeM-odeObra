@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculadora de Custo</title>
+</head>
+
+<body>
+
+  <div style="flex-direction: column;">
+
+    <div class="container">
+      <h1>Calculadora de Custo</h1>
+      <label for="horas">Horas Trabalhadas:</label>
+      <input type="number" id="horas" placeholder="Insira as horas">
+
+      <label for="materiais">Custo dos Materiais ($):</label>
+      <input type="number" id="materiais" placeholder="Insira o custo dos materiais">
+
+      <label for="margem">Margem de Lucro (%):</label>
+      <input type="number" id="margem" placeholder="Insira a margem de lucro">
+
+      <button onclick="calcularCusto()">Calcular</button>
+      <p id="resultado"></p>
+    </div>
+
+    <div class="container">
+      <h1>Calculadora de Custo</h1>
+      <label for="horas">Horas Trabalhadas:</label>
+      <input type="number" id="horas2" placeholder="Insira as horas">
+
+      <label for="PrecoHora">Preço Por Hora:</label>
+      <input type="number" id="PrecoHora" placeholder="Insira o preço">
+
+      <button onclick="calcularCusto2()">Calcular</button>
+      <p id="resultado2"></p>
+
+    </div>
+
+  </div>
+  <script src="arquivo.js"></script>
+</body>
+
+</html>
